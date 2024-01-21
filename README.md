@@ -50,7 +50,7 @@ The students must install the Android development environment used in the course
 The apps presented in the lectures and those developed in the exercise sessions can be tested on standard Android phones (older versions ok) or using the virtual device available on Android Studio. The following table presents the lectures plan:
 | Week | Date | Lecture |
 |--|--|--|
-| 01 | 30/01/2024 | Getting Started |
+| 01 | 30/01/2024 | [Getting Started](lecture01) |
 | 02 | 06/02/2024 | Introduction to Kotlin for Mobile Development |
 | 03 | 13/02/2024 | Android Framework UI Toolkit |
 | 04 | 20/02/2024 | Advanced User Interfaces Components |
