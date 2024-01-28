@@ -51,7 +51,7 @@ The apps presented in the lectures and those developed in the exercise sessions 
 | Week | Date | Lecture |
 |--|--|--|
 | 01 | 30/01/2024 | [Getting Started](lecture01) |
-| 02 | 06/02/2024 | Introduction to Kotlin for Mobile Development |
+| 02 | 06/02/2024 | [Introduction to Kotlin for Mobile Development](lecture02) |
 | 03 | 13/02/2024 | Android Framework UI Toolkit |
 | 04 | 20/02/2024 | Advanced User Interfaces Components |
 | 05 | 27/02/2024 | Flexible Data View and Threads |
