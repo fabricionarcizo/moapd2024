@@ -52,7 +52,7 @@ The apps presented in the lectures and those developed in the exercise sessions 
 |--|--|--|
 | 01 | 30/01/2024 | [Getting Started](lecture01) |
 | 02 | 06/02/2024 | [Introduction to Kotlin for Mobile Development](lecture02) |
-| 03 | 13/02/2024 | Android Framework UI Toolkit |
+| 03 | 13/02/2024 | [Android Framework UI Toolkit](lecture03) |
 | 04 | 20/02/2024 | Advanced User Interfaces Components |
 | 05 | 27/02/2024 | Flexible Data View and Threads |
 | 06 | 05/03/2024 | Firebase Android App |
