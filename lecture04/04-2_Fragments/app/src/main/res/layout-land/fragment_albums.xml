@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_view_album_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_01"
+            android:contentDescription="@string/content_description_album_1"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_view_album_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_02"
+            android:contentDescription="@string/content_description_album_2"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_3"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_view_album_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_03"
+            android:contentDescription="@string/content_description_album_3"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_view_album_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_04"
+            android:contentDescription="@string/content_description_album_4"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_1" />
+
+        <ImageView
+            android:id="@+id/image_view_album_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_05"
+            android:contentDescription="@string/content_description_album_5"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_6"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_4"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_2" />
+
+        <ImageView
+            android:id="@+id/image_view_album_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_06"
+            android:contentDescription="@string/content_description_album_6"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_5"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_3" />
+
+        <ImageView
+            android:id="@+id/image_view_album_7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_07"
+            android:contentDescription="@string/content_description_album_7"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_4" />
+
+        <ImageView
+            android:id="@+id/image_view_album_8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_08"
+            android:contentDescription="@string/content_description_album_8"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_9"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_7"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_5" />
+
+        <ImageView
+            android:id="@+id/image_view_album_9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_09"
+            android:contentDescription="@string/content_description_album_9"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_8"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_6" />
+
+        <ImageView
+            android:id="@+id/image_view_album_10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_10"
+            android:contentDescription="@string/content_description_album_10"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_7" />
+
+        <ImageView
+            android:id="@+id/image_view_album_11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_11"
+            android:contentDescription="@string/content_description_album_11"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_12"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_10"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_8" />
+
+        <ImageView
+            android:id="@+id/image_view_album_12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_12"
+            android:contentDescription="@string/content_description_album_12"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_11"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_9" />
+
+        <ImageView
+            android:id="@+id/image_view_album_13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_13"
+            android:contentDescription="@string/content_description_album_13"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_14"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_10" />
+
+        <ImageView
+            android:id="@+id/image_view_album_14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_14"
+            android:contentDescription="@string/content_description_album_14"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_15"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_13"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_11" />
+
+        <ImageView
+            android:id="@+id/image_view_album_15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_15"
+            android:contentDescription="@string/content_description_album_15"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_14"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_12" />
+
+        <ImageView
+            android:id="@+id/image_view_album_16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_16"
+            android:contentDescription="@string/content_description_album_16"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_17"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_13" />
+
+        <ImageView
+            android:id="@+id/image_view_album_17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_17"
+            android:contentDescription="@string/content_description_album_17"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_18"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_16"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_14" />
+
+        <ImageView
+            android:id="@+id/image_view_album_18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_18"
+            android:contentDescription="@string/content_description_album_18"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_17"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_15" />
+
+        <ImageView
+            android:id="@+id/image_view_album_19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_19"
+            android:contentDescription="@string/content_description_album_19"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_album_20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_17" />
+
+        <ImageView
+            android:id="@+id/image_view_album_20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/album_art_20"
+            android:contentDescription="@string/content_description_album_20"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view_album_19"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_album_18" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_articles">
+
+    <fragment
+        android:id="@+id/fragment_articles"
+        android:name="dk.itu.moapd.fragments.ArticlesFragment"
+        android:label="@string/fragment_articles"
+        tools:layout="@layout/fragment_articles">
+        <action
+            android:id="@+id/action_articles_to_contacts"
+            app:destination="@id/fragment_contacts" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_contacts"
+        android:name="dk.itu.moapd.fragments.ContactsFragment"
+        android:label="@string/fragment_contacts"
+        tools:layout="@layout/fragment_contacts">
+        <action
+            android:id="@+id/action_contacts_to_articles"
+            app:destination="@id/fragment_articles" />
+        <action
+            android:id="@+id/action_contacts_to_albums"
+            app:destination="@id/fragment_albums" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_albums"
+        android:name="dk.itu.moapd.fragments.AlbumsFragment"
+        android:label="@string/fragment_albums"
+        tools:layout="@layout/fragment_albums">
+        <action
+            android:id="@+id/action_albums_to_contacts"
+            app:destination="@id/fragment_contacts" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/search"
+        android:contentDescription="@string/content_description_search"
+        app:iconTint="?attr/colorControlNormal"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/baseline_delete_24"
+        android:title="@string/delete"
+        android:contentDescription="@string/content_description_delete"
+        app:iconTint="?attr/colorControlNormal"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/shortcut"
+        android:icon="@drawable/baseline_shortcut_24"
+        android:title="@string/shortcut"
+        android:contentDescription="@string/content_description_shortcut"
+        app:iconTint="?attr/colorControlNormal"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/system_update"
+        android:icon="@drawable/baseline_system_update_alt_24"
+        android:title="@string/system_update"
+        android:contentDescription="@string/content_description_system_update"
+        app:iconTint="?attr/colorControlNormal"
+        app:showAsAction="ifRoom" />
+
+</menu>

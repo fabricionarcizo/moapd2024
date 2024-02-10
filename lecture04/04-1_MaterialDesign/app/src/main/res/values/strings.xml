@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="attach_file">Attach File</string>
+    <string name="calendar_today">Calendar Today</string>
+    <string name="more">More</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+    <string name="shortcut">Shortcut</string>
+    <string name="system_update">System Update</string>
+    <string name="content_description_attach_file">Attach File</string>
+    <string name="content_description_calendar_today">Calendar Today</string>
+    <string name="content_description_more">More</string>
+    <string name="content_description_search">Search</string>
+    <string name="content_description_delete">Delete</string>
+    <string name="content_description_shortcut">Shortcut</string>
+    <string name="content_description_system_update">System Update</string>
+    <string name="content_description_add">Add</string>
+</resources>

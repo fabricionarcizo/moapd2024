@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dk.itu.moapd.materialdesign.MainActivity">
+
+    <item
+        android:id="@+id/attach_file"
+        android:icon="@drawable/baseline_attach_file_24"
+        android:title="@string/attach_file"
+        android:contentDescription="@string/content_description_attach_file"
+        app:iconTint="?attr/colorControlNormal"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/calendar_today"
+        android:icon="@drawable/baseline_calendar_today_24"
+        android:title="@string/calendar_today"
+        android:contentDescription="@string/content_description_calendar_today"
+        app:iconTint="?attr/colorControlNormal"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:title="@string/more"
+        android:contentDescription="@string/content_description_more"
+        app:iconTint="?attr/colorControlNormal"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="secondary_text"><i>Country: %s\nZipcode: %s</i></string>
+    <string name="content_description_card">Show the card image</string>
+</resources>
