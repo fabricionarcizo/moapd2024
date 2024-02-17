@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dialogs</string>
+    <string name="fragment_main">Dialog Examples</string>
+    <string name="fragment_alert">Alert Dialog</string>
+    <string name="fragment_simple">Simple Dialog</string>
+    <string name="fragment_confirmation">Confirmation Dialog</string>
+    <string name="alert_title">Alert Title</string>
+    <string name="simple_title">Simple Title</string>
+    <string name="confirmation_title">Confirmation Title</string>
+    <string name="alert_supporting_text">Do you want to perform this action?</string>
+    <string name="cancel">Cancel</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="ok">OK</string>
+</resources>

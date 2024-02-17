@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_thread"
+        android:enabled="true"
+        android:icon="@drawable/baseline_sync_24"
+        android:title="@string/fragment_thread"/>
+    <item
+        android:id="@+id/fragment_handler"
+        android:enabled="true"
+        android:icon="@drawable/baseline_handshake_24"
+        android:title="@string/fragment_handler"/>
+    <item
+        android:id="@+id/fragment_coroutines"
+        android:enabled="true"
+        android:icon="@drawable/baseline_restart_alt_24"
+        android:title="@string/fragment_coroutines"/>
+</menu>

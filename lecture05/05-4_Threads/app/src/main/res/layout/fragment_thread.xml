@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreadFragment">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="@dimen/progress_bar_size"
+        android:layout_height="@dimen/progress_bar_size"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/circular_determinative"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/text_view"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:progress="100" />
+
+    <ImageView
+        android:layout_width="@dimen/progress_image_size"
+        android:layout_height="@dimen/progress_image_size"
+        android:src="@drawable/baseline_android_24"
+        app:tint="?attr/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/progress_bar"
+        app:layout_constraintEnd_toEndOf="@+id/progress_bar"
+        app:layout_constraintStart_toStartOf="@+id/progress_bar"
+        app:layout_constraintTop_toTopOf="@+id/progress_bar"
+        android:contentDescription="@string/content_description_image" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_standard"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/thread_text"
+        app:layout_constraintTop_toBottomOf="@+id/progress_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/start_button"
+        style="@style/TextAppearance.Material3.BodyLarge" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_standard"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/start_button"
+        app:layout_constraintTop_toBottomOf="@+id/text_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/reset_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_standard"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/reset_button"
+        android:enabled="false"
+        app:layout_constraintTop_toBottomOf="@+id/text_view"
+        app:layout_constraintStart_toEndOf="@+id/start_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="?attr/materialButtonOutlinedStyle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

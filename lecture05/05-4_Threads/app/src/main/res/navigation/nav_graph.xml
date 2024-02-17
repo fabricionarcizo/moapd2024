@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_thread">
+
+    <fragment
+        android:id="@+id/fragment_thread"
+        android:name="dk.itu.moapd.threads.ThreadFragment"
+        android:label="@string/fragment_thread"
+        tools:layout="@layout/fragment_thread">
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_handler"
+        android:name="dk.itu.moapd.threads.HandlerFragment"
+        android:label="@string/fragment_handler"
+        tools:layout="@layout/fragment_handler">
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_coroutines"
+        android:name="dk.itu.moapd.threads.CoroutinesFragment"
+        android:label="@string/fragment_coroutines"
+        tools:layout="@layout/fragment_coroutines">
+    </fragment>
+
+</navigation>
