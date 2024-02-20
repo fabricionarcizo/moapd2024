@@ -33,6 +33,9 @@ render.experimental.xml
 # Google Services (e.g. APIs or Firebase)
 google-services.json
 
+# dotenv-kotlin
+env
+
 # Android Profiling
 *.hprof
 
