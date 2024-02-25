@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_articles"
+        android:enabled="true"
+        android:icon="@drawable/baseline_article_24"
+        android:title="@string/fragment_articles"/>
+    <item
+        android:id="@+id/fragment_contacts"
+        android:enabled="true"
+        android:icon="@drawable/baseline_people_24"
+        android:title="@string/fragment_contacts"/>
+    <item
+        android:id="@+id/fragment_albums"
+        android:enabled="true"
+        android:icon="@drawable/baseline_dashboard_24"
+        android:title="@string/fragment_albums"/>
+</menu>

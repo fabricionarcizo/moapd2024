@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Firebase Authentication</string>
+    <string name="action_logout">Logout</string>
+    <string name="user_info_title">User Info</string>
+    <string name="unknown_user">Unknown User</string>
+    <string name="user_photo_description">The user\'s photo from Google Account</string>
+    <!-- Strings used in the articles fragments -->
+    <string name="fragment_articles">Articles</string>
+    <string name="author_name">Chuck Norris</string>
+    <string name="article_date">7th Feb 2024</string>
+    <string name="article_title_1">What is Lorem Ipsum?</string>
+    <string name="article_paragraph_1">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took
+        a galley of type and scrambled it to make a type specimen book. It has survived not only
+        five centuries, but also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+        PageMaker including versions of Lorem Ipsum.
+    </string>
+    <string name="content_description_meme">An image shown a Chuck Norris\' meme</string>
+    <string name="article_title_2">Where does it come from?</string>
+    <string name="article_paragraph_2">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+        of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+        a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+        word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from
+        sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and
+        Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very
+        popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit
+        amet..\", comes from a line in section 1.10.32.\n\n
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+        interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero
+        are also reproduced in their exact original form, accompanied by English versions from the
+        1914 translation by H. Rackham.
+    </string>
+    <string name="article_title_3">Why do we use it?</string>
+    <string name="article_paragraph_3">
+        It is a long established fact that a reader will be distracted by the readable content of a
+        page when looking at its layout. The point of using Lorem Ipsum is that it has a
+        more-or-less normal distribution of letters, as opposed to using \"Content here, content
+        here\", making it look like readable English. Many desktop publishing packages and web page
+        editors now use Lorem Ipsum as their default model text, and a search for \"lorem ipsum\"
+        will uncover many web sites still in their infancy. Various versions have evolved over the
+        years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    </string>
+    <string name="article_title_4">Where can I get some?</string>
+    <string name="article_paragraph_4">
+        There are many variations of passages of Lorem Ipsum available, but the majority have
+        suffered alteration in some form, by injected humour, or randomised words which don\'t look
+        even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+        sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+        generators on the Internet tend to repeat predefined chunks as necessary, making this the
+        first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
+        with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+        The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+        non-characteristic words etc.
+    </string>
+    <!-- Strings used in the contacts fragments -->
+    <string name="fragment_contacts">Contacts</string>
+    <string name="content_description_circle">Show a circle as icon background</string>
+    <!-- Strings used in the albums fragments -->
+    <string name="fragment_albums">Albums</string>
+    <string name="content_description_album_1">Chuck Norris</string>
+    <string name="content_description_album_2">Bruce Lee</string>
+    <string name="content_description_album_3">Steven Seagal</string>
+    <string name="content_description_album_4">Tony Jaa</string>
+    <string name="content_description_album_5">Jet Li</string>
+    <string name="content_description_album_6">Jean Claude Van Damme</string>
+    <string name="content_description_album_7">Sonny Chiba</string>
+    <string name="content_description_album_8">Jackie Chan</string>
+    <string name="content_description_album_9">Iko Uwais</string>
+    <string name="content_description_album_10">Donnie Yen</string>
+    <string name="content_description_album_11">Gordon Liu</string>
+    <string name="content_description_album_12">Chow Yun-Fat</string>
+    <string name="content_description_album_13">Sammo Hung</string>
+    <string name="content_description_album_14">Toshiro Mifune</string>
+    <string name="content_description_album_15">Phillip Rhee</string>
+    <string name="content_description_album_16">Cheng Pei-Pei</string>
+    <string name="content_description_album_17">Bolo Yeung</string>
+    <string name="content_description_album_18">Jeff Speakman</string>
+    <string name="content_description_album_19">Bill Superfoot Wallace</string>
+    <string name="content_description_album_20">Dragon Lee</string>
+</resources>
