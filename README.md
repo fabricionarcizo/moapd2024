@@ -56,7 +56,7 @@ The apps presented in the lectures and those developed in the exercise sessions 
 | 04 | 20/02/2024 | [Advanced User Interface Components](lecture04) |
 | 05 | 27/02/2024 | [Flexible Data View and Threads](lecture05) |
 | 06 | 05/03/2024 | [Firebase Android App](lecture06) |
-| 07 | 12/03/2024 | App Data and Files |
+| 07 | 12/03/2024 | [App Data and Files](lecture07) |
 | 08 | 19/03/2024 | Cloud Storage on Android |
 | 09 | 02/04/2024 | Android Location-Aware |
 | 10 | 09/04/2024 | Android Multimedia and Machine Learning |
