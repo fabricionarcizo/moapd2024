@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Geolocation</string>
+    <string name="text_latitude">Latitude</string>
+    <string name="text_longitude">Longitude</string>
+    <string name="text_altitude">Altitude</string>
+    <string name="text_speed">Speed</string>
+    <string name="text_time">Time</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="text_not_available">Not available</string>
+    <string name="text_speed_km">%d KM</string>
+    <string name="preference_file_key">dk.itu.moapd.geolocation.PREFERENCE_FILE_KEY</string>
+</resources>
