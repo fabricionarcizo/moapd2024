@@ -36,6 +36,9 @@ google-services.json
 # dotenv-kotlin
 env
 
+# OpenCV dependencies
+opencv-4.*/
+
 # Android Profiling
 *.hprof
 

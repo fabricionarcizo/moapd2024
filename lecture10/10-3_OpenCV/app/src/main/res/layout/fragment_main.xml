@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:opencv="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/java_camera_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        opencv:camera_id="any"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        style="?attr/materialIconButtonOutlinedStyle"
+        android:id="@+id/button_camera_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/button_camera_switch_description"
+        app:icon="@drawable/baseline_flip_camera_android_24"
+        app:iconSize="48dp"
+        app:iconTint="@android:color/white"
+        app:strokeColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/button_image_capture"
+        app:layout_constraintEnd_toStartOf="@+id/button_image_capture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_image_capture" />
+
+    <Button
+        style="?attr/materialIconButtonOutlinedStyle"
+        android:id="@+id/button_image_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_extra_large"
+        android:contentDescription="@string/button_image_capture_description"
+        app:icon="@drawable/baseline_circle_24"
+        app:iconSize="80dp"
+        app:iconTint="@android:color/white"
+        app:strokeColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        style="?attr/materialIconButtonOutlinedStyle"
+        android:id="@+id/button_image_viewer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/button_image_viewer_description"
+        app:icon="@drawable/baseline_photo_24"
+        app:iconSize="48dp"
+        app:iconTint="@android:color/white"
+        app:strokeColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/button_image_capture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_image_capture"
+        app:layout_constraintTop_toTopOf="@+id/button_image_capture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

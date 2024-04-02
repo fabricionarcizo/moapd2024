@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">48dp</dimen>
+    <dimen name="margin_small">2dp</dimen>
+    <dimen name="margin_standard">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_large">12dp</dimen>
+    <dimen name="margin_xlarge">24dp</dimen>
+    <dimen name="margin_extra_large">48dp</dimen>
+</resources>

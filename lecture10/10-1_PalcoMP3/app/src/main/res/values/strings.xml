@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Palco MP3</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="artist_style">STYLE</string>
+    <string name="song_name">Song Name</string>
+    <string name="album_name">Album</string>
+    <string name="content_description_artist">Artist</string>
+    <string name="content_description_album">Album</string>
+    <string name="content_description_close">Close</string>
+    <string name="content_description_open">Open</string>
+    <string name="content_description_play">Play</string>
+</resources>
