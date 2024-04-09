@@ -60,7 +60,7 @@ The apps presented in the lectures and those developed in the exercise sessions 
 | 08 | 19/03/2024 | [Cloud Storage on Android](lecture08) |
 | 09 | 02/04/2024 | [Android Location-Aware](lecture09) |
 | 10 | 09/04/2024 | [Android Multimedia and Machine Learning](lecture10) |
-| 11 | 16/04/2024 | Jetpack Compose |
+| 11 | 16/04/2024 | [Jetpack Compose](lecture11) |
 | 12 | 23/04/2024 | Android Sensors |
 | 13 | 30/04/2024 | Guest Lecture #01 (Stefanos Marios Chourdakis from Shape) |
 | 14 | 07/05/2024 | Shrink, Obfuscate, and Optimize an Android App |
