@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lazy Composable</string>
+    <string name="secondary_text"><i>Country: %s\nZipcode: %s</i></string>
+    <string name="content_description_card">Show the card image</string>
+    <string name="content_description_thumb_up">Thumb Up button</string>
+    <string name="content_description_favorite">Favorite button</string>
+    <string name="content_description_share">Share button</string>
+</resources>
