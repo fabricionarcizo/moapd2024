@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">48dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_standard">12dp</dimen>
+    <dimen name="margin_medium">24dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_xlarge">64dp</dimen>
+    <dimen name="margin_extra_large">128dp</dimen>
+    <dimen name="margin_bottom_navigation">80dp</dimen>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_motion">
+
+    <fragment
+        android:id="@+id/fragment_motion"
+        android:name="dk.itu.moapd.androidsensors.fragments.motion.MotionFragment"
+        android:label="@string/fragment_motion" />
+
+    <fragment
+        android:id="@+id/fragment_environmental"
+        android:name="dk.itu.moapd.androidsensors.fragments.environmental.EnvironmentalFragment"
+        android:label="@string/fragment_environmental" />
+
+    <fragment
+        android:id="@+id/fragment_position"
+        android:name="dk.itu.moapd.androidsensors.fragments.position.PositionFragment"
+        android:label="@string/fragment_position" />
+
+</navigation>
