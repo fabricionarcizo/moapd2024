@@ -1,0 +1,2 @@
+# Lecture #13  (Guest Lecture #01 (Stefanos Chourdakis from Shape))
+Material used during Lecture #13 of the Mobile App Development BSc. 2024 course **on April 30th. 2024**. The guest lecturer, Stefanos Chourdakis, from the company `Shape` will present a lecture entitled _Android Development in a Professional Environment (What to Expect to Meet in their Professional Career)_.
