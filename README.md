@@ -63,7 +63,7 @@ The apps presented in the lectures and those developed in the exercise sessions 
 | 11 | 16/04/2024 | [Jetpack Compose](lecture11) |
 | 12 | 23/04/2024 | [Android Sensors](lecture12) |
 | 13 | 30/04/2024 | [Guest Lecture #01 (Stefanos Marios Chourdakis from Shape)](lecture13) |
-| 14 | 07/05/2024 | Shrink, Obfuscate, and Optimize an Android App |
+| 14 | 07/05/2024 | [Shrink, Obfuscate, and Optimize an Android App](lecture14) |
 
 ## Mandatory Activities
 
