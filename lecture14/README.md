@@ -1,0 +1,2 @@
+# Lecture #14  (Shrink, Obfuscate, and Optimize)
+The source codes used during Lecture #14 of the Mobile App Development BSc. 2024 course **on May 7th, 2024** are available only in the slides. We will study applying _reverse engineering_ to Android apps for academic and learning purposes. Therefore, we cannot share any source code in this GitHub repository.
